@@ -1,0 +1,4202 @@
+[
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=3920",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "products?category=product8843",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=admin102' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=search7859",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=admin116' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "profile?id=613",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "login?user=admin308' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "echo?q=order2045",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "login?user=user193&password=pass838",
+    "label": "safe"
+  },
+  {
+    "query": "profile?id=2318",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "products?category=books4270",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=python9643",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user298&password=pass652",
+    "label": "safe"
+  },
+  {
+    "query": "profile?id=4929",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "echo?q=python3748",
+    "label": "safe"
+  },
+  {
+    "query": "products?category=books7624",
+    "label": "safe"
+  },
+  {
+    "query": "products?category=search4571",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=admin171' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "login?user=admin293' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=books7012",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "login?user=user356&password=pass197",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=DROP TABLE books9499",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=DROP TABLE search6625",
+    "label": "sql_injection"
+  },
+  {
+    "query": "products?category=product2438",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=DROP TABLE hello2006",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=1950",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "profile?id=3064",
+    "label": "safe"
+  },
+  {
+    "query": "products?category=user980",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "echo?q=example8891",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=4954",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "products?category=example4032",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=4998",
+    "label": "sql_injection"
+  },
+  {
+    "query": "products?category=id8886",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=python6970",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=example743",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "login?user=admin113' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=1512",
+    "label": "sql_injection"
+  },
+  {
+    "query": "products?category=example2421",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "products?category=safe2313",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "profile?id=3120",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=2936",
+    "label": "sql_injection"
+  },
+  {
+    "query": "products?category=product6851",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=244",
+    "label": "sql_injection"
+  },
+  {
+    "query": "profile?id=2722",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=admin67' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=2200",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=example1778",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=hello2490",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "products?category=safe1840",
+    "label": "safe"
+  },
+  {
+    "query": "profile?id=3742",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=1189",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=books6387",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user126&password=pass146",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user153&password=pass224",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "profile?id=3363",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user497&password=pass826",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "products?category=safe4051",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=DROP TABLE user5479",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "login?user=admin332' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "products?category=safe6588",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "profile?id=974",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=admin194' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "login?user=user243&password=pass280",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "login?user=user442&password=pass477",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=admin236' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "profile?id=122",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=safe7317",
+    "label": "safe"
+  },
+  {
+    "query": "products?category=python3610",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "profile?id=4302",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=DROP TABLE user9079",
+    "label": "sql_injection"
+  },
+  {
+    "query": "login?user=user366&password=pass721",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "echo?q=example3126",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=id5801",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=DROP TABLE id1201",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=1350",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=id4080",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user144&password=pass763",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=search5147",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "login?user=admin191' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "profile?id=4628",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=user2077",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user159&password=pass612",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user183&password=pass903",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "profile?id=1919",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "login?user=admin250' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "login?user=admin201' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=python7983",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=DROP TABLE hello8346",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "login?user=admin313' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=DROP TABLE order8113",
+    "label": "sql_injection"
+  },
+  {
+    "query": "login?user=user102&password=pass816",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "login?user=user172&password=pass876",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user105&password=pass125",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=books3252",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "profile?id=2861",
+    "label": "safe"
+  },
+  {
+    "query": "profile?id=1918",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..%2f..%2f..%2fetc%2fpasswd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "login?user=admin204' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "products?category=safe4807",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "products?category=product9318",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "login?user=admin245' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "products?category=hello5989",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "login?user=user336&password=pass701",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "login?user=user303&password=pass922",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=DROP TABLE user9017",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=3028",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=safe3811",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=DROP TABLE id2126",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=3999",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=DROP TABLE product3306",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "products?category=user493",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=admin356' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "profile?id=3630",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "products?category=books3015",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=safe6448",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..%2f..%2f..%2fetc%2fpasswd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "products?category=example1140",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=books5675",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=python1751",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=DROP TABLE python3882",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "login?user=user174&password=pass351",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=DROP TABLE product4438",
+    "label": "sql_injection"
+  },
+  {
+    "query": "profile?id=1418",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "products?category=safe2812",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user116&password=pass292",
+    "label": "safe"
+  },
+  {
+    "query": "products?category=example2785",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "products?category=python6475",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=205",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "products?category=id4146",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=product1606",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=hello1923",
+    "label": "safe"
+  },
+  {
+    "query": "products?category=safe8457",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=4325",
+    "label": "sql_injection"
+  },
+  {
+    "query": "login?user=admin40' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "echo?q=order9395",
+    "label": "safe"
+  },
+  {
+    "query": "products?category=order5164",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=DROP TABLE order3145",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "profile?id=2091",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=hello8991",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=4193",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "echo?q=python3079",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=DROP TABLE order7130",
+    "label": "sql_injection"
+  },
+  {
+    "query": "products?category=python9441",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=search250",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=admin219' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=DROP TABLE search7726",
+    "label": "sql_injection"
+  },
+  {
+    "query": "login?user=user263&password=pass289",
+    "label": "safe"
+  },
+  {
+    "query": "profile?id=190",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "profile?id=4366",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user100&password=pass663",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "products?category=safe8194",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=user4219",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=DROP TABLE python4840",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=3166",
+    "label": "sql_injection"
+  },
+  {
+    "query": "products?category=python1055",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=DROP TABLE books6290",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=DROP TABLE safe1270",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "profile?id=3075",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=DROP TABLE id9085",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=python7655",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "profile?id=4915",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=..%2f..%2f..%2fetc%2fpasswd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "login?user=admin247' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=DROP TABLE books1829",
+    "label": "sql_injection"
+  },
+  {
+    "query": "profile?id=684",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "profile?id=330",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=product5887",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=id9952",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "profile?id=785",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=search9785",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user387&password=pass560",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=hello8418",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=4566",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=DROP TABLE user8993",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "login?user=user383&password=pass722",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=1992",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=safe8941",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "echo?q=order6733",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "products?category=id8053",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user305&password=pass446",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=DROP TABLE id5342",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=4235",
+    "label": "sql_injection"
+  },
+  {
+    "query": "profile?id=2795",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=DROP TABLE safe9336",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=python945",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "products?category=id4422",
+    "label": "safe"
+  },
+  {
+    "query": "profile?id=2366",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=DROP TABLE python5759",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=1805",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=506",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "login?user=admin71' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "login?user=admin70' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "login?user=admin92' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "login?user=user37&password=pass839",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "echo?q=order9383",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=product7431",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=2798",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "profile?id=3589",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user205&password=pass411",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=DROP TABLE python5378",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "echo?q=books2124",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=product9521",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=id6043",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=..%2f..%2f..%2fetc%2fpasswd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=example6459",
+    "label": "safe"
+  },
+  {
+    "query": "products?category=search8988",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=3806",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=hello833",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=safe4319",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=books12",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=3676",
+    "label": "sql_injection"
+  },
+  {
+    "query": "login?user=admin15' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "profile?id=560",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=1288",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=books1289",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "profile?id=2807",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "login?user=admin278' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "products?category=hello6258",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=DROP TABLE example1992",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=example7821",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=books5340",
+    "label": "safe"
+  },
+  {
+    "query": "profile?id=1010",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "products?category=order4145",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=books5118",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=id517",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=hello9552",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=hello7967",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=3913",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=..%2f..%2f..%2fetc%2fpasswd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=search907",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "products?category=id1663",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user419&password=pass955",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=DROP TABLE product5026",
+    "label": "sql_injection"
+  },
+  {
+    "query": "products?category=books4864",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=id9685",
+    "label": "safe"
+  },
+  {
+    "query": "profile?id=2101",
+    "label": "safe"
+  },
+  {
+    "query": "profile?id=755",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=DROP TABLE example4963",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..%2f..%2f..%2fetc%2fpasswd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "echo?q=user6604",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=order7645",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=admin238' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "products?category=example15",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=2522",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "profile?id=489",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "products?category=hello7897",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=DROP TABLE hello130",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=example4655",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user478&password=pass104",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=search5939",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=order4231",
+    "label": "safe"
+  },
+  {
+    "query": "products?category=books9073",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=DROP TABLE id3969",
+    "label": "sql_injection"
+  },
+  {
+    "query": "products?category=search7537",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=order7696",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=search7914",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=safe1349",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "products?category=id2233",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=DROP TABLE user1858",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=DROP TABLE example8239",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "echo?q=id8217",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=python2317",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=..%2f..%2f..%2fetc%2fpasswd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=2686",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=order6407",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=..%2f..%2f..%2fetc%2fpasswd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "products?category=hello2929",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "products?category=hello3887",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "profile?id=4667",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "echo?q=books1495",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=2089",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=user4974",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=DROP TABLE books1441",
+    "label": "sql_injection"
+  },
+  {
+    "query": "profile?id=717",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "login?user=admin291' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=1355",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=..%2f..%2f..%2fetc%2fpasswd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "echo?q=id2529",
+    "label": "safe"
+  },
+  {
+    "query": "products?category=python8263",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=books1760",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=admin339' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "echo?q=python6789",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "login?user=admin134' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "login?user=user165&password=pass870",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=2464",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=2457",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=python8328",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "login?user=admin382' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "login?user=user53&password=pass245",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=DROP TABLE python1636",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=python9135",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "profile?id=1278",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "login?user=admin395' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=..%2f..%2f..%2fetc%2fpasswd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "profile?id=685",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=2569",
+    "label": "sql_injection"
+  },
+  {
+    "query": "profile?id=831",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "products?category=books1862",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..%2f..%2f..%2fetc%2fpasswd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=user1581",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "products?category=id5926",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "products?category=search6166",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=books7901",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=product3815",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=admin127' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "products?category=safe1994",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=DROP TABLE python7352",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=DROP TABLE safe4769",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=4214",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=order3313",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "products?category=python1172",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=1740",
+    "label": "sql_injection"
+  },
+  {
+    "query": "login?user=admin198' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "login?user=user351&password=pass851",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=636",
+    "label": "sql_injection"
+  },
+  {
+    "query": "login?user=admin67' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=hello9973",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=product5761",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=DROP TABLE example5030",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "products?category=safe8454",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=4527",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "profile?id=3013",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=1875",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=4984",
+    "label": "sql_injection"
+  },
+  {
+    "query": "login?user=user185&password=pass946",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user257&password=pass200",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=hello8867",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "profile?id=4605",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "login?user=user342&password=pass706",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=user4073",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=user2599",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "login?user=user497&password=pass728",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user377&password=pass544",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "login?user=user359&password=pass871",
+    "label": "safe"
+  },
+  {
+    "query": "products?category=books2582",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=DROP TABLE search6911",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=DROP TABLE safe4416",
+    "label": "sql_injection"
+  },
+  {
+    "query": "login?user=user254&password=pass541",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=admin157' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "login?user=admin312' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "login?user=admin43' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=order9914",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "login?user=admin113' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "products?category=hello9742",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=python247",
+    "label": "safe"
+  },
+  {
+    "query": "profile?id=3664",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "profile?id=4543",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=example3251",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=product2481",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "profile?id=1846",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=safe2294",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "echo?q=order4057",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..%2f..%2f..%2fetc%2fpasswd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=880",
+    "label": "sql_injection"
+  },
+  {
+    "query": "login?user=admin306' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=DROP TABLE id1659",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=user8735",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user281&password=pass541",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=DROP TABLE product5605",
+    "label": "sql_injection"
+  },
+  {
+    "query": "products?category=order2554",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=DROP TABLE python4619",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "products?category=id3290",
+    "label": "safe"
+  },
+  {
+    "query": "products?category=safe2395",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=python9909",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "products?category=example5846",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user248&password=pass388",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=example5801",
+    "label": "safe"
+  },
+  {
+    "query": "products?category=id1825",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=example260",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=2968",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=3889",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "login?user=user367&password=pass368",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=DROP TABLE order1277",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=books5061",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "echo?q=books4012",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=DROP TABLE safe2893",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "products?category=order3036",
+    "label": "safe"
+  },
+  {
+    "query": "products?category=python9351",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=hello7797",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=800",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=1782",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "profile?id=435",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=id1806",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=search3111",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user355&password=pass762",
+    "label": "safe"
+  },
+  {
+    "query": "products?category=python6165",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "profile?id=685",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=safe4477",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..%2f..%2f..%2fetc%2fpasswd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=DROP TABLE safe7395",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "profile?id=4803",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "login?user=user263&password=pass319",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=2195",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=hello2595",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "login?user=user105&password=pass537",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=2304",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "products?category=search6879",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..%2f..%2f..%2fetc%2fpasswd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "products?category=python2217",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "products?category=python890",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=4032",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=safe5093",
+    "label": "safe"
+  },
+  {
+    "query": "products?category=example3802",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "products?category=user835",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=DROP TABLE python7950",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=1986",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=user8388",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..%2f..%2f..%2fetc%2fpasswd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "profile?id=3538",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user307&password=pass255",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "profile?id=461",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=user2576",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=hello6659",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "login?user=admin17' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=DROP TABLE order6610",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..%2f..%2f..%2fetc%2fpasswd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=2120",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=hello2536",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user456&password=pass466",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=DROP TABLE id9171",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "login?user=user351&password=pass930",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=DROP TABLE id3811",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "login?user=admin138' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "login?user=user185&password=pass782",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=DROP TABLE product8221",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=example966",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=3019",
+    "label": "sql_injection"
+  },
+  {
+    "query": "products?category=safe8246",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "profile?id=2049",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=search1305",
+    "label": "safe"
+  },
+  {
+    "query": "products?category=search2445",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "login?user=user58&password=pass591",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=product2635",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=admin198' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "products?category=id2520",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user333&password=pass118",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=DROP TABLE id899",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "echo?q=safe4259",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=id5936",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "login?user=admin198' OR 1=1 --&password=p",
+    "label": "sql_injection"
+  },
+  {
+    "query": "echo?q=<img src=x onerror=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=DROP TABLE id7651",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=python464",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=user2862",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=safe5554",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..%2f..%2f..%2fetc%2fpasswd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=DROP TABLE python990",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=93",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=../../etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "products?category=id1271",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=books7475",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=DROP TABLE order6251",
+    "label": "sql_injection"
+  },
+  {
+    "query": "profile?id=4609",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=/etc/passwd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "login?user=user350&password=pass464",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=id6950",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..%2f..%2f..%2fetc%2fpasswd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "echo?q=example6841",
+    "label": "safe"
+  },
+  {
+    "query": "products?category=books7868",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=example2784",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "profile?id=956",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "echo?q=python938",
+    "label": "safe"
+  },
+  {
+    "query": "login?user=user80&password=pass945",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=<script>alert(1)</script>",
+    "label": "xss"
+  },
+  {
+    "query": "profile?id=1298",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=SELECT * FROM users WHERE id=3266",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=hello8640",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=$(id)",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=UNION SELECT null,null,null,null,null",
+    "label": "sql_injection"
+  },
+  {
+    "query": "products?category=user6510",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=; ls -la",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "login?user=user134&password=pass207",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=' OR '1'='1",
+    "label": "sql_injection"
+  },
+  {
+    "query": "search?q=..%2f..%2f..%2fetc%2fpasswd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=..%2f..%2f..%2fetc%2fpasswd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=|| shutdown -h now",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=<svg/onload=alert('XSS')>",
+    "label": "xss"
+  },
+  {
+    "query": "search?q=`uname -a`",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=..%2f..%2f..%2fetc%2fpasswd",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<iframe src=javascript:alert(1)>",
+    "label": "xss"
+  },
+  {
+    "query": "profile?id=1427",
+    "label": "safe"
+  },
+  {
+    "query": "echo?q=id5792",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=..%2F..%2Fboot.ini",
+    "label": "path_traversal"
+  },
+  {
+    "query": "echo?q=books9754",
+    "label": "safe"
+  },
+  {
+    "query": "search?q=| whoami",
+    "label": "command_injection"
+  },
+  {
+    "query": "search?q=..\\..\\..\\windows\\system32",
+    "label": "path_traversal"
+  },
+  {
+    "query": "search?q=<body onload=alert('XSS')>",
+    "label": "xss"
+  }
+]

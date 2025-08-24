@@ -1,0 +1,18 @@
+[2025-08-24 15:44:33.328470] REASON=SQL Injection | SCORE=57 | QUERY=http://127.0.0.1:8080/login?user=admin%27%20OR%201=1%20--
+[2025-08-24 15:46:00.211030] REASON=SQL Injection | SCORE=57 | QUERY=http://127.0.0.1:8080/login?user=admin%27%20OR%201=1%20--&password=a
+[2025-08-24 15:46:23.626586] REASON=SQL Injection | SCORE=57 | QUERY=http://127.0.0.1:8080/login?user=admin%27%20UNION%20SELECT%20null,null%20--&password=foo
+[2025-08-24 15:47:10.498442] REASON=XSS | SCORE=57 | QUERY=http://127.0.0.1:8080/search?q=%3Cscript%3Ealert(1)%3C/script%3E
+[2025-08-24 15:49:22.835767] REASON=Command Injection | SCORE=57 | QUERY=http://127.0.0.1:8080/login?user=admin%27%20OR%201=1%20--&password=a
+[2025-08-24T16:05:51.291528] REASON=SQL Injection | SCORE=0 | PRED=malicious_by_rule | QUERY=http://127.0.0.1:8080/login?user=admin%27%20OR%201=1%20--&pass=a
+[2025-08-24T16:16:21.503341] REASON=ml_threshold | SCORE=76 | PRED=malicious | QUERY=http://127.0.0.1:8080/_waf/health
+[2025-08-24T16:20:47.641450] REASON=ml_threshold | SCORE=7 | PRED=malicious | QUERY=http://127.0.0.1:8080/search?q=hello
+[2025-08-24T16:21:26.515695] REASON=ml_threshold | SCORE=7 | PRED=malicious | QUERY=http://127.0.0.1:8080/search?q=hello
+[2025-08-24T16:22:11.820415] REASON=ml_threshold | SCORE=7 | PRED=malicious | QUERY=http://127.0.0.1:8080/search?q=hello
+[2025-08-24T16:22:37.732151] REASON=ml_threshold | SCORE=23 | PRED=malicious | QUERY=http://127.0.0.1:8080/search?q=%27%20OR%20%271%27=%271
+[2025-08-24T16:22:46.902896] REASON=ml_threshold | SCORE=7 | PRED=malicious | QUERY=http://127.0.0.1:8080/search?q=hello
+[2025-08-24T16:22:49.357955] REASON=ml_threshold | SCORE=23 | PRED=malicious | QUERY=http://127.0.0.1:8080/search?q=%27%20OR%20%271%27=%271
+[2025-08-24T16:24:56.170656] REASON=ml_threshold | SCORE=7 | PRED=malicious | QUERY=http://127.0.0.1:8080/search?q=hello
+[2025-08-24T16:27:00.238701] REASON=ml_threshold | SCORE=7 | PRED=malicious | QUERY=http://127.0.0.1:8080/search?q=hello
+[2025-08-24T16:33:44.806546] REASON=SQL Injection | SCORE=23 | PRED=malicious_by_rule | QUERY=http://127.0.0.1:8080/search?q='%20OR%20'1'='1%20--
+[2025-08-24T16:33:53.114599] REASON=ml_threshold | SCORE=88 | PRED=malicious | QUERY=http://127.0.0.1:8080/search?q=%3Cscript%3Ealert(1)%3C/script%3E
+[2025-08-24T16:34:03.207492] REASON=Path Traversal | SCORE=96 | PRED=malicious | QUERY=http://127.0.0.1:8080/search?q=../../etc/passwd
