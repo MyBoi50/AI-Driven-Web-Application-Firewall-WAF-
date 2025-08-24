@@ -44,22 +44,29 @@ WAF reloads updated model → gets smarter over time.
 
 ⚙️ Setup
 1. Clone repo
+   
 git clone https://github.com/MyBoi50/AI-Driven-Web-Application-Firewall-WAF-
+
 cd ai-waf
 
-2. Install dependencies
+3. Install dependencies
+   
 pip install -r requirements.txt
 
-3. Generate dataset
+5. Generate dataset
+   
 python make_dataset.py
 
-4. Train initial model
+7. Train initial model
+   
 python train_model.py --dataset dataset.json --out waf_model.joblib
 
-5. Start backend (port 9000)
+9. Start backend (port 9000)
+    
 uvicorn backend:app --reload --port 9000
 
-6. Start WAF (port 8080)
+11. Start WAF (port 8080)
+    
 uvicorn waf:app --reload --port 8080
 
 
@@ -88,5 +95,6 @@ python auto_retrain.py
 
 This project is for educational & research purposes only.
 Do not deploy in production without rigorous testing.
+
 
 
