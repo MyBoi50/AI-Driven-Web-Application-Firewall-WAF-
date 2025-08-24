@@ -1,4 +1,4 @@
-AI-Powered Web Application Firewall (WAF)
+AI-Powered Web Application Firewall (WAF) ----- This is Completely CLI Based Model.
 
 🚀 A self-learning Web Application Firewall built with FastAPI and Machine Learning.
 It protects a vulnerable backend app by detecting and blocking malicious requests such as SQL Injection, XSS, Command Injection, and Path Traversal.
@@ -88,3 +88,4 @@ python auto_retrain.py
 
 This project is for educational & research purposes only.
 Do not deploy in production without rigorous testing.
+
