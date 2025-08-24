@@ -44,7 +44,7 @@ WAF reloads updated model → gets smarter over time.
 
 ⚙️ Setup
 1. Clone repo
-git clone https://github.com/YOUR_USERNAME/ai-waf.git
+git clone https://github.com/MyBoi50/AI-Driven-Web-Application-Firewall-WAF-
 cd ai-waf
 
 2. Install dependencies
@@ -88,4 +88,5 @@ python auto_retrain.py
 
 This project is for educational & research purposes only.
 Do not deploy in production without rigorous testing.
+
 
